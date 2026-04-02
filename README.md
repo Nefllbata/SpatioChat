@@ -7,5 +7,5 @@ Here is a small toy sample of our data:
 coming soon
 
 ## License
-* **Dataset:** The SpatioChat dataset is released under the [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). It is intended strictly for academic and research purposes.
-* **Code:** The codebase and generation pipeline are licensed under the [MIT License](LICENSE).
+- **Code**: The source code is licensed under the [MIT License](LICENSE).
+- **Dataset**: The SpatioChat dataset is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
