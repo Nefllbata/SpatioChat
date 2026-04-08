@@ -11,35 +11,6 @@ The SpatioChat corpus (multi-speaker dry speech, 8-channel spatial audio, script
 
 **[https://huggingface.co/datasets/NefIibata/SpatioChat](https://huggingface.co/datasets/NefIibata/SpatioChat)**
 
-### Download the dataset locally
-
-Install the [Hugging Face CLI](https://huggingface.co/docs/huggingface_hub/guides/cli) (`pip install -U huggingface_hub`), then:
-
-```bash
-# Download the full snapshot into ./Dataset (adjust path as needed)
-huggingface-cli download NefIibata/SpatioChat --repo-type dataset --local-dir ./Dataset
-```
-
-Or with Python:
-
-```python
-from huggingface_hub import snapshot_download
-snapshot_download(repo_id="NefIibata/SpatioChat", repo_type="dataset", local_dir="./Dataset")
-```
-
----
-
-## What this GitHub repo contains
-
-| Path | Role |
-|------|------|
-| [`demo.py`](demo.py) | **Single entrypoint** — `baseline` / `enhanced` / `reflection` |
-| [`config.json`](config.json) | **Configuration** — API endpoints, model paths, `tts_queue` (edit placeholders before running) |
-| [`DA/`](DA/) | LLM client, prompts, TTS (VoxCPM, CosyVoice2, Fish-Speech), 8-ch spatializer, evaluator, plotting |
-| [`data/`](data/) | Speaker JSON, scene/IR index, reference speaker WAVs; add `data/IR/*.wav` for environmental IR |
-
-The **generation pipeline** runs on your machine; the **published benchmark files** are obtained from Hugging Face as above.
-
 ---
 
 ## Quick start: data generation pipeline
@@ -90,8 +61,6 @@ The repo ships a **template** [`config.json`](config.json) with placeholders. Ed
 | `tts_queue` | Ordered engines for battles, or `null` to auto-build from `models` |
 | `data.*` | Paths to speaker JSON, scene list, IR directory (relative to project root) |
 
-**Do not commit real API keys.** Use placeholders in public branches or keep secrets only on your machine.
-
 ### 6. Run the pipeline
 
 **Baseline** (VoxCPM only — smallest setup):
@@ -112,28 +81,15 @@ python demo.py --mode enhanced --output_dir ./outputs --num_samples 1
 python demo.py --mode reflection --output_dir ./outputs --num_samples 1 --max_loop 3
 ```
 
-Custom config path:
-
-```bash
-python demo.py --mode baseline --output_dir ./outputs --config /path/to/config.json
-```
-
 ### 7. Typical outputs (per sample id under `output_dir/<id>/`)
 
-- `<id>.json` — dialogue + spatial metadata  
+- `<id>.json` — script  
 - `<id>.wav` — rendered audio (mode-dependent)  
 - `segments/` — per-utterance dry WAVs  
 - `segments_8ch_direct/` — 8-channel spatialized segments  
 - `RIR_8CH/` — RIR-related files  
 - `<id>_QA.json` — generated QA  
 - `<id>_layout.png` — spatial layout visualization  
-
----
-
-## Evaluation (short)
-
-- **Naturalness / emotiveness**: from the configured **audio judge** (`judge_model`).  
-- **WER / CER**: local **Whisper** vs. reference text (default model size in code: `base`).
 
 ---
 
