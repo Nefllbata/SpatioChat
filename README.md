@@ -27,8 +27,6 @@ from huggingface_hub import snapshot_download
 snapshot_download(repo_id="NefIibata/SpatioChat", repo_type="dataset", local_dir="./Dataset")
 ```
 
-> The repository root may contain a `.gitignore` entry for `Dataset/` so that a local copy of the data is not committed to Git by accident. Remove or adjust that ignore rule if you intentionally version a small subset.
-
 ---
 
 ## What this GitHub repo contains
