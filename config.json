@@ -1,0 +1,26 @@
+{
+  "openai": {
+    "api_key": "your-api-key-here",
+    "base_url": "https://api.openai.com/v1",
+    "model": "your-chat-model",
+    "judge_model": "your-audio-judge-model",
+    "timeout": 120.0,
+    "judge_timeout": 180.0,
+    "max_retries": 3
+  },
+  "data": {
+    "speaker_json": "data/speaker/myspeaker.json",
+    "scene_file": "data/IR/classifications.txt",
+    "ir_dir": "data/IR"
+  },
+  "models": {
+    "voxcpm": "/path/to/your/VoxCPM",
+    "cosyvoice": "/path/to/your/CosyVoice2-0.5B",
+    "fishaudio": "/path/to/your/fish-speech-model"
+  },
+  "tts_queue": [
+    { "name": "VoxCPM", "path": "/path/to/your/VoxCPM" },
+    { "name": "CosyVoice2", "path": "/path/to/your/CosyVoice2-0.5B" },
+    { "name": "FishAudio", "path": "/path/to/your/fish-speech-model" }
+  ]
+}

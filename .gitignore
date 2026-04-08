@@ -5,3 +5,4 @@ outputs/
 *.log
 .DS_Store
 upload.py
+hf_token.local
