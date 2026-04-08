@@ -130,29 +130,10 @@ python demo.py --mode baseline --output_dir ./outputs --config /path/to/config.j
 
 ---
 
-## Environmental IR (optional)
-
-- `data/IR/classifications.txt` lists scene IDs and labels.  
-- Place matching `{scene_id}_*_img.wav` files under `data/IR/` to enable **environmental reverb** mixing.  
-- If no IR is found for the sampled scene, the pipeline still runs with **directional** RIR only.
-
----
-
 ## Evaluation (short)
 
 - **Naturalness / emotiveness**: from the configured **audio judge** (`judge_model`).  
 - **WER / CER**: local **Whisper** vs. reference text (default model size in code: `base`).
-
----
-
-## Troubleshooting
-
-| Issue | What to try |
-|-------|-------------|
-| `Config not found` | Ensure `config.json` exists at project root or pass `--config` |
-| VoxCPM load error | `models.voxcpm` must point to **VoxCPM**, not CosyVoice weights |
-| CosyVoice import error | Check `DA/CosyVoice` layout matches upstream |
-| CUDA OOM | Fewer samples, smaller models, or one engine only |
 
 ---
 
