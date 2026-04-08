@@ -48,7 +48,7 @@ def resolve_path(p):
 
 def load_config(config_path):
     if not os.path.isfile(config_path):
-        raise FileNotFoundError(f'Config not found: {config_path}. Copy config.example.json to config.json and edit.')
+        raise FileNotFoundError(f'Config not found: {config_path}. Add config.json at the project root (see README).')
     with open(config_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
