@@ -1,0 +1,62 @@
+{
+    "Chloe Bennett": {
+        "label": "English Female",
+        "description": "A 42-year-old full-time mother and food blogger. She is the energetic heart of the Bennett family, always keeping the household running smoothly. She speaks with a fast, upbeat rhythm, reflecting her busy life. She is the mother of Lily and Mia, and the older sister of Bob.",
+        "wav": "data/audios/Chloe_Bennett.wav",
+        "text": "Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob."
+    },
+    "Bob Jenkins": {
+        "label": "English Male",
+        "description": "A 35-year-old amateur inventor and Chloe's younger brother. He is optimistic but clumsy, often messing up DIY science experiments in the backyard. He speaks with a dramatic, slightly surprised tone. He loves his nieces but constantly gives his sister a headache with his antics.",
+        "wav": "data/audios/Bob_Jenkins.wav",
+        "text": "The turf and gravel around it seemed charred as if by a sudden explosion."
+    },
+    "Arthur Bennett": {
+        "label": "English Male",
+        "description": "A 70-year-old retired history teacher and Chloe's father-in-law. He is calm, introverted, and enjoys reflecting on life. He speaks slowly with a weathered, philosophical tone. He often tells stories of the past to his granddaughters and bickers over chess with his neighbor, Silas.",
+        "wav": "data/audios/Arthur_Bennett.wav",
+        "text": "War, hunting, and love bring a thousand pain for one pleasure."
+    },
+    "Elena Bennett": {
+        "label": "English Female",
+        "description": "A 68-year-old retired nurse, Arthur's wife, and the gentle anchor of the family. She is mild-mannered and nostalgic, speaking with a soft, emotional, and soothing voice. Having lived through turbulent times in her youth, she deeply cherishes the peaceful everyday life of her family.",
+        "wav": "data/audios/Elena_Bennett.wav",
+        "text": "Just a memory, right now it signified shade, water, and a refuge from the war."
+    },
+    "Lily Bennett": {
+        "label": "English Female",
+        "description": "A 21-year-old college senior and Chloe's eldest daughter. She is an environmental science major currently leading a community project to restore the local riverbank. She is passionate but often stressed by fieldwork. She speaks clearly and briskly, carrying an ecological dedication in her voice.",
+        "wav": "data/audios/Lily_Bennett.wav",
+        "text": "These take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon."
+    },
+    "Mia Bennett": {
+        "label": "English Female",
+        "description": "A 10-year-old elementary school student and Lily's younger sister. She is full of curiosity and a massive nature enthusiast. She speaks with a bright, articulate, and youthful tone. She loves it when her mother's best friend, 'Aunt Emily,' explains natural phenomena to her.",
+        "wav": "data/audios/Mia_Bennett.wav",
+        "text": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow."
+    },
+    "David Brooks": {
+        "label": "English Male",
+        "description": "A 22-year-old college student, Lily's classmate and fieldwork partner. He is patient, logical, and highly observant. He speaks in a calm, measured, and well-organized manner. He often visits the Bennett house to categorize soil samples with Lily and is warmly welcomed by Chloe.",
+        "wav": "data/audios/David_Brooks.wav",
+        "text": "These take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon."
+    },
+    "Professor Thomas Wright": {
+        "label": "English Male",
+        "description": "A 55-year-old university professor and Lily's ecology advisor. He is meticulous, slightly pedantic, and strictly academic. He speaks with a formal, traditional cadence. He oversees Lily's riverbank restoration project and frequently lectures on local bird and plant taxonomy.",
+        "wav": "data/audios/Professor_Thomas_Wright.wav",
+        "text": "The taxonomic arrangement presented below is based on recent studies of ovenbird relationships."
+    },
+    "Emily Davis": {
+        "label": "English Female",
+        "description": "A 40-year-old middle school science teacher and Chloe's longtime best friend. She is warm, approachable, and great with children. She speaks with a patient, melodic, and educational tone. She frequently visits the Bennetts, happily answering Mia's endless questions about the weather and nature.",
+        "wav": "data/audios/Emily_Davis.wav",
+        "text": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow."
+    },
+    "Silas Grantham": {
+        "label": "English Male",
+        "description": "A 65-year-old convenience store owner and the Bennetts' stubborn neighbor. He is cynical and highly critical of modern corporate life. He speaks with a gruff, complaining tone. Despite his complaining, he genuinely cares for the Bennetts and often drinks tea on the porch with Arthur.",
+        "wav": "data/audios/Silas_Grantham.wav",
+        "text": "Those egoistic businessmen always consider themselves important, just because they wear a cravat."
+    }
+}

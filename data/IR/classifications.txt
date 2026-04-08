@@ -1,0 +1,159 @@
+0 演艺厅 Performance Hall L
+2 桥上滨水运动步道 Bridge Waterfront Sports Path M
+3 维也纳金色大厅 Vienna Golden Hall L
+5 音乐厅 Concert Hall L
+7 深林 Deep Woods ML
+8 宴会厅 Banquet Hall ML
+10 舞蹈工作室 Dance Studio L
+11 公寓庭院 Residence Courtyard H
+13 行人地下通道 Pedestrian Underpass M
+14 卧室 Bedroom H
+15 基督教堂 Christian Church L
+18 学院中庭 College Atrium M
+19 现场录音室 Live Room L
+20 公交车厢 Bus interior M
+21 教室 Classroom M
+22 交响乐厅 Symphony Hall L
+24 远洋 Open Ocean L
+25 废弃地下室楼梯 Abandoned Basement Stairwell L
+28 录音棚控制室 Recording Studio Control Room L
+29 画廊 Art Gallery ML
+34 中世纪大会堂 Medieval Great Hall L
+35 摇滚俱乐部 Rock Club ML
+36 古典剧场 Classical Auditorium L
+40 办公室 Office H
+43 礼拜堂 Chapel L
+46 音乐壳 Bandshell L
+47 高架桥下空间 Viaduct Underspace L
+50 主阅览室 Main Reading Room ML
+53 山洞 Cavern L
+55 穹顶大厅 Rotunda ML
+56 海蚀洞窟 Sea Caves L
+57 食堂 Cafeteria H
+63 炉边厅 Hearth Room M
+64 华丽多功能活动厅 Grand Versatile Event Hall M
+65 剧院 Theater L
+66 庄园户外场地 Estate Outdoor Venue L
+68 海滨悬崖遗址 Coastal Cliff Ruins L
+71 洗手间 Bathroom M
+74 隧道 Tunnel L
+75 教堂圣殿 Church Sanctuary L
+76 室内泳馆 Indoor Swimming Hall L
+77 歌剧院 Opera House ML
+79 冰球馆 Ice Hockey Arena L
+82 废弃工业厂房 Abandoned Industrial Plant L
+83 电梯厅 Elevator Lobby M
+85 爵士俱乐部 Jazz Club ML
+86 东正教大教堂 Eastern Orthodox Cathedral L
+87 咖啡店 Cafe M
+89 圆形骨灰殿 Rotunda Columbarium L
+90 现代庭院 Modern Courtyard M
+91 滑板公园 Skatepark ML
+92 现场表演厅 Live Performance Hall ML
+98 幽林石谷 Secluded Rocky Forest Gorge L
+99 海防要塞 Coastal Citadel L
+102 演奏厅 Recital Hall L
+104 柱廊步道 Colonnaded Walkway M
+105 狭缝峡谷 Slot Canyon L
+106 真实网球场 Real Tennis Court L
+107 教堂中殿 Church Nave L
+108 音乐休闲室 Music Den M
+116 地铁车厢 Subway Car M
+117 巨石通道墓 Megalithic Passage Tomb L
+120 木质廊桥 Wooden Covered Bridge L
+121 乡村石室会客区 Rustic Stone Gathering Room ML
+124 阁楼 Attic M
+126 城堡石室 Castle Stone Chamber L
+127 哥特式礼拜堂 Gothic Chapel L
+128 面包车内 Van Interior M
+130 地铁站行人通道 Subway Station Pedestrian Passage M
+132 巨型天坑溶洞 Giant Sinkhole Karst Cave L
+133 大剧场 Grand Theater ML
+136 家庭厨房 Home Kitchen H
+137 公园拱顶通道 Vaulted Park Underpass M
+140 洞穴剧场 Cave Theater L
+148 酒吧 Bar H
+150 谷地小径 Valley Trail M
+151 地窖 Cellar ML
+153 多功能剧场 Multi-purpose Theater ML
+154 圣索菲亚大教堂 Hagia Sophia L
+155 碉堡 Pillbox L
+157 沿海山地森林 Coastal Mountain Forest L
+158 大教堂 Cathedral L
+161 地铁站楼梯 Subway Station Staircase M
+163 环形剧院 Arena Theater L
+164 现场音乐俱乐部 Live Music Club ML
+167 乡村石屋 Rustic Stone House L
+169 图书馆圆厅 Library Rotunda ML
+173 阶梯剧场 Tiered Theater L
+174 宫廷沙龙 Palace Salon M
+177 壁球馆 Squash Court L
+182 礼堂 Assembly Hall L
+184 犹太教堂 Synagogue L
+185 走廊 Corridor M
+186 农舍客厅 Farmhouse Living Room M
+191 游戏酒馆 Games Pub H
+192 地铁站厅 Subway Concourse M
+193 室内综合体育馆 Indoor Multi-Sport Hall L
+195 体育竞技场 Sports Arena L
+196 日本能剧剧院 Japanese Noh Theater L
+199 卡朗格峡湾 Calanque L
+203 荒漠峡谷 Desert Canyon L
+205 创意工作室 Creative Studio ML
+207 堡垒废墟 Fortress Ruins L
+210 社区中心 Community Center H
+211 专业录音棚 Professional Recording Studio L
+212 雪山松林 Snowy Mountain Pine Forest L
+216 测地线圆顶迷宫 Geodesic Dome Labyrinth L
+218 沙丘地貌 Dune Landscape L
+219 仓库 Warehouse ML
+223 室内深坑遗址展馆 Indoor Deep Pit Archaeological Exhibition Hall L
+225 简易木屋 Simple Wooden Cabin L
+226 砌体拱桥 Masonry Arch Bridge L
+229 哥特式大教堂 Gothic Cathedral L
+231 入口门厅 Entry Foyer M
+233 古典歌剧院 Classical Opera House L
+234 会展厅 Convention and Exhibition Hall L
+236 宗座圣殿 Basilica L
+238 汽车内 Car Interior H
+241 土坯房 Adobe House  L
+246 客厅 Living Room H
+251 崖洞观景台 Cliff Grotto Viewpoint L
+253 机构园区 Institutional Campus ML
+254 观光溶洞 Show Cave L
+256 住宅楼楼梯间 Residential Stairwell M
+257 栈道 Boardwalk M
+262 冰川洞穴 Glacier Cave L
+265 饭店 Restaurant M
+266 餐馆 Eatery M
+267 茶馆 Tea House M
+268 派对现场 Party Scene ML
+269 休息室 Lounge M
+270 野餐区 Picnic Area ML
+271 会议室 Conference Room M
+272 研讨室 Seminar Room ML
+273 书房 Study Room H
+274 阳台 Balcony H
+275 超市 Supermarket M
+276 购物中心 Shopping Mall M
+277 公园 Park H
+278 医院 Hospital ML
+279 车库 Garage M
+280 商店 Store ML
+281 广场 Square H
+282 砖石窑炉 Masonry Kiln L
+283 天象厅 Planetarium L
+285 瑜伽工作室 Yoga Studio L
+286 观景塔 Observation Tower L
+288 土屋 Earth Lodge L
+290 农田 Farm Field L
+291 冰川 Glacier L
+292 海滨悬崖 Coastal Cliff L
+293 火山熔岩原 Volcanic Lava Field L
+294 海滩 Beach M
+297 渡轮甲板 Ferry Deck L
+298 帆船露天甲板 Sailing Ship Open Deck L
+299 历史要塞庭院 Historical Fortress Courtyard L
+301 玻璃穹顶室 Glass Globe L
+302 户外大型阶梯 Outdoor Grand Staircase L
+303 商业楼宇楼梯间 Commercial Stairwell M

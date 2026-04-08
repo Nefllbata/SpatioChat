@@ -1,0 +1,13 @@
+openai
+torch
+torchaudio
+numpy
+scipy
+soundfile
+librosa
+matplotlib
+jiwer
+openai-whisper
+gpuRIR
+pybase16384
+voxcpm
