@@ -1,11 +1,7 @@
 __pycache__/
 *.pyc
-config.json
-# 本地完整数据请用 Hugging Face 等单独发布，勿提交到 GitHub
 Dataset/
 outputs/
 *.log
 .DS_Store
-# 仅本机数据集上传脚本，不随「管线代码」仓库公开
 upload.py
-hf_token.local
