@@ -3,8 +3,6 @@
 Official repository for our **ACM MM 2026 Dataset Track** paper:  
 **SpatioChat: A 3D Audio Dialogue Benchmark for Evaluating Spatial-Semantic Joint Reasoning**.
 
-**[Notice for reviewers]** The full dataset, code generation pipeline, and supplementary materials are being organized and will be fully available by the supplemental materials deadline.
-
 ---
 
 ## Dataset (Hugging Face)
@@ -164,9 +162,3 @@ python demo.py --mode baseline --output_dir ./outputs --config /path/to/config.j
 
 - **Code**: [MIT License](LICENSE).
 - **Dataset**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-
----
-
-## Citation
-
-Please cite the ACM MM 2026 Dataset Track paper (BibTeX will be added after publication).
